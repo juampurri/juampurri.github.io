@@ -1,0 +1,34 @@
+.contact__title {
+  font-size: 2.5rem;
+  color: $color-primary;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  text-transform: uppercase;
+}
+
+//   TABLET //
+@media (min-width: 600px) {
+  .contact__title {
+    font-size: 2rem;
+    color: $color-primary;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    text-transform: uppercase;
+  }
+  .contact__space {
+    padding: 5rem;
+  }
+}
+
+//    D E S K T O P //
+@media (min-width: 960px) {
+  .contact__title {
+    padding: 5rem;
+    font-size: 5rem;
+  }
+  .contact__space {
+    padding: 5rem;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  grid-area: footer;
+  background-color: $color-primary;
+  color: $color-blanco;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 3rem;
+}
+
+//        T A B L E T     M O D E                     //
+@media (min-width: 600px) {
+  .footer {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+}
+//  DESTKOP  MODE //
+@media (min-width: 900px) {
+  .footer {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+}

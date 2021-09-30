@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site web of tanks world war 2 pictures axis allies and commitern"
+    />
+    <meta name="keywords" content="TANK, WW2, AXIS, ALLIES, SOVIETS" />
+    <title>WW2 PHOTOS</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/51b92a92ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  <script src="/js/index.js"> </script>
+  </head>
+  <body class="grid__container">
+    <!--                    HEADER                     -->
+    <header class="header">
+      <nav class="nav">
+        <h1 class="logo">WW2 PHOTOS</h1>
+        <button class="nav__toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+          <ul class="nav__menu nav__menu--visible"">
+            <li class="nav__menu--item">
+              <a class="nav__menu--link" href="/index.html">Home</a>
+            </li>
+            <li class="nav__menu--item">
+              <a class="nav__menu--link" href="/pages/Gallery.html">Gallery</a>
+            </li>
+            <li class="nav__menu--item">
+              <a class="nav__menu--link" href="/pages/aboutme.html">About me</a>
+            </li>
+            <li class="nav__menu--item">
+              <a class="nav__menu--link" href="/pages/Contact.html">Contact</a>
+            </li>
+          </ul>
+        
+      </nav>
+    </header>
+    <!--  F I N            H E A D E R-->
+    <main class="main">
+      <section class="container">
+        <div class="title">
+          <h2 class="title__text">Vault of pictures WW2</h2>
+        </div>
+        <!--   FOTOS CAROUSEL      -->
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide carousel-fade img-fluid"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active img-fluid"
+              data-bs-interval="10000"
+            >
+              <img
+                src="/img/1fotomenuprincipal.jpg"
+                class="
+                  d-block
+                  w-100
+                  img-fluid
+                  rounded
+                  col-sm-5 col-md-12 col-lg-12
+                  mb-
+                  mt-4
+                "
+                alt="TIGER II"
+              />
+            </div>
+            <div class="carousel-item img-fluid" data-bs-interval="2000">
+              <img
+                src="/img/2fotomenuprincipal.jpg"
+                class="
+                  d-block
+                  w-100
+                  img-fluid
+                  rounded
+                  col-sm-5 col-md-12 col-lg-12
+                  mb-
+                  mt-4
+                "
+                alt="SOV BERLIN"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/3fotomenuprincipal.jpg"
+                class="
+                  d-block
+                  w-100
+                  img-fluid
+                  rounded
+                  col-sm-5 col-md-12 col-lg-12
+                  mb-
+                  mt-4
+                "
+                alt="Omaha Beach"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- MENU CLICKEABLE-->
+      <div class="imgmenu">
+        <p class="img__link--axis">  Axis </p>
+        <a  href="/pages/Axis.html"> 
+          <img class="img-fluid imgmenu__img1" src="/img/1-fotomenuclick.jpg" alt="German Soldier"
+        />  </a>
+        <p class="img__link--allies">   Allies </p>
+        <a href="/pages/Allies.html">
+          <img
+            class="img-fluid imgmenu__img2"
+            src="/img/2-fotomenuclick.jpg"
+            alt="Marine usa kiss woman"
+        /></a>
+        <p class="img__link--com"> Commitern </p>
+        <a  href="/pages/Commitern.html"
+          ><img
+            class="img-fluid imgmenu__img3"
+            src="/img/3-fotomenuclic.jpg"
+            alt="Sovietswith PPSH41"
+        /></a>
+      </div>
+    </main>
+    <!--  F O O T E R -->
+    <footer class="footer">
+      <small
+        >Photo credits to their respective owners,
+          I just share them with you.
+        <strong>Design by Juan Bravo - 2021</strong>
+      </small>
+    </footer>
+    <script
+      src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script src="/js/index.js"> </script>
+  </body>
+</html>

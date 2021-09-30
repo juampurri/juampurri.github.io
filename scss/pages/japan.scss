@@ -1,0 +1,79 @@
+.Japan {
+  .Japan__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: $color-primary;
+    text-transform: uppercase;
+  }
+  .Japan__title:hover {
+    color: $color-jap;
+    font-weight: 700;
+    transition: 1s;
+  }
+  .Japan__text {
+    color: $color-jap;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+  }
+  .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: $color-primary;
+  }
+}
+//  T A B L E T //
+@media (min-width: 600px) {
+  .Japan {
+    .Japan__title {
+      display: flex;
+      justify-content: center;
+      padding: 3rem;
+      color: $color-primary;
+      text-transform: uppercase;
+    }
+    .Japan__title:hover {
+      color: $color-jap;
+      font-weight: 700;
+      transition: 1s;
+    }
+    .Japan__text {
+      color: $color-jap;
+      font-size: 1.6rem;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+//     D E S K T O P //
+@media (min-width: 960px) {
+  .Japan {
+    .Japan__title {
+      display: flex;
+      justify-content: center;
+      font-size: 5rem;
+      padding: 3rem;
+      color: $color-primary;
+      text-transform: uppercase;
+    }
+    .Japan__title:hover {
+      color: $color-jap;
+      font-weight: 700;
+      transition: 1s;
+    }
+    .Japan__text {
+      color: $color-jap;
+      font-size: 3.6rem;
+      display: flex;
+      justify-content: center;
+    }
+    .Japan__img {
+      display: flex;
+      justify-content: center;
+
+      align-content: center;
+    }
+  }
+}
