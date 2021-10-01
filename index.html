@@ -32,31 +32,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="/js/index.js"></script>
+    <script defer src="js/index.js"></script>
   </head>
   <body class="grid__container">
     <!--                    HEADER                     -->
     <header class="header">
       <nav class="nav">
-        <h1 class="logo">WW2 PHOTOS</h1>
-        <button class="nav__toggle" aria-label="Abrir menú">
+        <a class="logo nav-link" href="/index.html">WW2 PHOTOS</a>
+        <button class="nav-toggle" aria-label="Open menu">
           <i class="fas fa-bars"></i>
         </button>
-        <ul class="nav__menu nav__menu--visible"">
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/index.html">Home</a>
+        <ul class="nav-menu nav-menu_visible">
+          <li class="nav-menu-item">
+            <a href="/index.html" class="nav-menu-link nav-link">Home</a>
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/gallery.html">Gallery</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/gallery.html"
+              >Gallery</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/aboutme.html">About me</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/aboutme.html"
+              >About me</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/contact.html">Contact</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
-        
       </nav>
     </header>
     <!--  F I N            H E A D E R-->
@@ -181,6 +186,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script src="/js/index.js"></script>
   </body>
 </html>

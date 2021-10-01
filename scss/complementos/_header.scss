@@ -1,45 +1,53 @@
-.header {
-  height: 10rem;
-  .nav {
-    font-size: 2.1rem;
-    display: flex;
-    justify-content: space-between;
-    font-family: "roboto" sans-serif;
-    max-width: 2400px;
-    margin: 0 auto;
-    .logo {
-      font-size: 4rem;
-      color: $color-blanco;
-      font-family: recursive;
-      line-height: 10rem;
-      font-weight: bold;
-      padding: 0 4rem;
-    }
-    .nav__menu {
-      font-weight: 900;
-      margin-right: 20rem;
+//       D E S K T O P    M O D E                     //
+@media (max-width: 8500px) {
+  .header {
+    background-color: $color-primary;
+
+    height: 10rem;
+    .nav {
       display: flex;
-      flex-direction: row;
-      list-style-type: none;
-      gap: 3rem;
+      justify-content: space-between;
+      max-width: 2400px;
+      margin: 0 auto;
     }
-    .nav__menu--link {
+
+    .nav-link {
       color: $color-blanco;
       text-decoration: none;
-      font-weight: 700;
+    }
+
+    .logo {
+      color: $color-blanco;
+      font-size: 3.5rem;
+      font-weight: bold;
+      padding: 0 4rem;
+      line-height: 10rem;
+    }
+
+    .nav-menu {
+      display: flex;
+      font-weight: 900;
+      margin-right: 4rem;
+      list-style: none;
+    }
+    .nav-menu-item {
+      font-size: 2rem;
+      margin: 0 1.5rem;
+      padding: 0.8rem 0.12rem;
       text-transform: uppercase;
+    }
+
+    .nav-menu-link {
+      padding: 0.8 rem 1.2rem;
       border-radius: 0.5rem;
     }
-    .nav__menu--item {
-      font-size: 1.6rem;
-      padding: 0.8rem 0.12rem;
-    }
-    .nav__menu--link:hover {
+    .nav-menu-link:hover {
+      transition: 0.5s;
       background-color: $color-botonera;
       color: $color-primary;
-      transition: 0.5s;
     }
-    .nav__toggle {
+
+    .nav-toggle {
       color: $color-blanco;
       background: none;
       border: none;
@@ -55,118 +63,99 @@
 //        T A B L E T     M O D E                     //
 @media (min-width: 600px) {
   .header {
+    background-color: $color-primary;
     height: 8rem;
     .nav {
       display: flex;
       justify-content: space-between;
-
+      max-width: 240rem;
+      margin: 0 auto;
       .logo {
         font-size: 2rem;
-        color: $color-blanco;
-        font-family: recursive;
+        font-weight: bold;
+        padding: 0 4rem;
         line-height: 8rem;
       }
-      .nav__menu {
-        text-decoration: none;
-        list-style-type: none;
-        font-weight: 900;
-        margin-right: 8rem;
-      }
-      .nav__menu--link {
-        color: $color-blanco;
-        font-size: 2rem;
-      }
+    }
+    .nav-link {
+      color: $color-blanco;
+      text-decoration: none;
+    }
+    .nav-menu {
+      display: flex;
+      margin-right: 4rem;
+      list-style-type: none;
+    }
+    .nav-menu-item {
+      font-size: 2rem;
+      margin: 0 1rem;
+      line-height: 10rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      width: max-content;
+    }
 
-      .nav__menu--item {
-        padding: 0 1rem;
-        line-height: 8rem;
-      }
-      .nav__menu--link:hover {
-        background-color: $color-botonera;
-        color: $color-primary;
-        transition: 0.5s;
-      }
-      .nav__toggle {
-        color: $color-blanco;
-        background: none;
-        border: none;
-        font-size: 3rem;
-        padding: 0 2rem;
-        line-height: 10rem;
-        cursor: pointer;
-        display: none;
-      }
+    .nav-menu-link:hover {
+      background-color: $color-botonera;
+      transition: 0.5s;
+    }
+    .nav-toggle {
+      line-height: 8rem;
+      display: block;
     }
   }
 }
+
 // MOBILE  //
 @media (max-width: 600px) {
   .header {
-    grid-area: header;
-    background-color: $color-primary;
-    height: 6rem;
-    .nav {
-      font-size: 3.1rem;
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-      .logo {
-        font-size: 1.6rem;
-        color: $color-blanco;
-        font-family: recursive;
-        line-height: 6rem;
-        font-weight: bold;
-        padding: 0 4rem;
-        font-size: 2.6rem;
-      }
-      .nav__menu {
-        background-color: $color-botonera;
-        flex-direction: column;
-        align-items: center;
-        font-weight: 900;
-        margin-right: 20rem;
-        list-style: none;
-        position: fixed;
-        left: 100%;
-        top: 6rem;
-        width: 100%;
-        gap: 3rem;
-        padding: 0;
-        height: calc(100% - 6rem);
-        overflow-y: auto;
-        z-index: 10;
-      }
-      .nav__menu--link {
-        color: $color-blanco;
-        text-decoration: none;
-        font-weight: 700;
-        text-transform: uppercase;
-        border-radius: 0.5rem;
-      }
-      .nav__menu--item {
-        font-size: 4.6rem;
-        padding: 0.8rem 0.12rem;
-        line-height: 6rem;
-      }
-      .nav__menu--link:hover {
-        background-color: $color-botonera;
-        color: $color-primary;
-        transition: 0.5s;
-      }
-      .nav__toggle {
-        color: $color-blanco;
-        background: none;
-        border: none;
-        font-size: 5.6rem;
-        padding: 0 2rem;
-        line-height: 6rem;
-        cursor: pointer;
-        display: block;
-      }
-      .nav__menu--visible {
-        left: 0;
-        transition: left 0.3s;
-      }
+    .logo {
+      font-size: 1.2rem;
+      padding: 0 2rem;
+      line-height: 6rem;
+    }
+
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      list-style: none;
+      position: fixed;
+      left: 0;
+      top: 6.5rem;
+      width: 100%;
+      padding: 2rem 0;
+      height: calc(100% - 6rem);
+      overflow-y: auto;
+      left: 100%;
+      transition: left 0.5s;
+      background-color: $color-botonera;
+      z-index: 10;
+    }
+    .nav-menu-item {
+      font-size: 2rem;
+      margin: 0 1.5rem;
+      line-height: 6rem;
+      text-transform: uppercase;
+    }
+
+    .nav-menu-link {
+      padding: 0.8 rem 1.2rem;
+      border-radius: 0.5rem;
+    }
+    .nav-menu-link:hover {
+      background: none;
+      color: $color-primary;
+      transition: 0.5s;
+    }
+
+    .nav-toggle {
+      display: block;
+      line-height: 6rem;
+      font-size: 1.2rem;
+    }
+    .nav-menu_visible {
+      left: 0;
     }
   }
 }
