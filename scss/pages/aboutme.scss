@@ -15,8 +15,8 @@
     display: flex;
     border-radius: 3rem;
     padding: 5rem;
-    height: 20rem;
-    width: 20rem;
+    height: 30rem;
+    width: 30rem;
   }
 
   .aboutme__me {
@@ -101,10 +101,11 @@
     }
     .aboutme__img {
       display: flex;
-      border-radius: 3rem;
-      padding: 5rem;
-      height: 50rem;
+      align-content: center;
       width: 50rem;
+      height: 50rem;
+      margin-top: 12rem;
+      margin-right: -30rem;
     }
 
     .aboutme__me {

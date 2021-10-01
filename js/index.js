@@ -1,12 +1,8 @@
-const navToggle = document.querySelector(".nav__toggle");
-const navMenu = document.querySelector(".nav__menu");
-
-navToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("nav__menu nav__menu--visible");
-
-  if (navMenu.classList.contains("nav__menu nav__menu--visible")) {
-    navToggle.setAttribute("aria-label", "Abrir menú");
-  } else {
-    navToggle.setAttribute("aria-label", "Cerrar menú");
-  }
-});
+const menu = document.querySelector(".nav__menu");
+const openMenuBtn = document.querySelector(".open-menu");
+const closeMenuBtn = document.querySelector(".close-menu");
+function togglemenu() {
+  menu.classList.toggle("menu_opened");
+}
+openMenuBtn.addEventListener("click", toggleMenu);
+closeMenuBtn.addEventListener("click", toggleMenu);
