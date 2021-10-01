@@ -38,7 +38,8 @@ body {
   align-items: center;
   font-weight: bold;
   font-family: cursive;
-  padding: 3rem; }
+  padding: 3rem;
+  font-size: 1rem; }
 
 @media (min-width: 600px) {
   .footer {
@@ -55,36 +56,43 @@ body {
     background-color: #034574;
     height: 10rem; }
     .header .nav {
+      font-size: 2.1rem;
       display: flex;
       justify-content: space-between;
+      font-family: "roboto" sans-serif;
       max-width: 2400px;
       margin: 0 auto; }
     .header .nav-link {
       color: #eeeeee;
       text-decoration: none; }
     .header .logo {
+      font-size: 4rem;
       color: #eeeeee;
-      font-size: 3.5rem;
+      font-family: recursive;
+      line-height: 10rem;
       font-weight: bold;
-      padding: 0 4rem;
-      line-height: 10rem; }
+      padding: 0 4rem; }
     .header .nav-menu {
-      display: flex;
       font-weight: 900;
-      margin-right: 4rem;
-      list-style: none; }
+      margin-right: 20rem;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      gap: 3rem; }
     .header .nav-menu-item {
-      font-size: 2rem;
-      margin: 0 1.5rem;
+      font-size: 1.6rem;
       padding: 0.8rem 0.12rem;
       text-transform: uppercase; }
     .header .nav-menu-link {
-      padding: 0.8 rem 1.2rem;
+      color: #eeeeee;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
       border-radius: 0.5rem; }
     .header .nav-menu-link:hover {
-      transition: 0.5s;
       background-color: #011b2e;
-      color: #034574; }
+      color: #034574;
+      transition: 0.5s; }
     .header .nav-toggle {
       color: #eeeeee;
       background: none;
@@ -97,13 +105,10 @@ body {
 
 @media (min-width: 600px) {
   .header {
-    background-color: #034574;
     height: 8rem; }
     .header .nav {
       display: flex;
-      justify-content: space-between;
-      max-width: 240rem;
-      margin: 0 auto; }
+      justify-content: space-between; }
       .header .nav .logo {
         font-size: 2rem;
         font-weight: bold;
@@ -117,58 +122,67 @@ body {
       margin-right: 4rem;
       list-style-type: none; }
     .header .nav-menu-item {
-      font-size: 2rem;
-      margin: 0 1rem;
-      line-height: 10rem;
-      text-transform: uppercase;
-      font-weight: bold;
-      width: max-content; }
+      padding: 0 1rem;
+      line-height: 8rem; }
     .header .nav-menu-link:hover {
       background-color: #011b2e;
+      color: #034574;
       transition: 0.5s; }
     .header .nav-toggle {
       line-height: 8rem;
-      display: block; } }
+      display: block;
+      color: #eeeeee;
+      background: none;
+      border: none;
+      font-size: 3rem;
+      padding: 0 2rem;
+      line-height: 10rem;
+      cursor: pointer;
+      display: none; } }
 
 @media (max-width: 600px) {
-  .header .logo {
-    font-size: 1.2rem;
-    padding: 0 2rem;
-    line-height: 6rem; }
-  .header .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    list-style: none;
-    position: fixed;
-    left: 0;
-    top: 6.5rem;
-    width: 100%;
-    padding: 2rem 0;
-    height: calc(100% - 6rem);
-    overflow-y: auto;
-    left: 100%;
-    transition: left 0.5s;
-    background-color: #011b2e;
-    z-index: 10; }
-  .header .nav-menu-item {
-    font-size: 2rem;
-    margin: 0 1.5rem;
-    line-height: 6rem;
-    text-transform: uppercase; }
-  .header .nav-menu-link {
-    padding: 0.8 rem 1.2rem;
-    border-radius: 0.5rem; }
-  .header .nav-menu-link:hover {
-    background: none;
-    color: #034574;
-    transition: 0.5s; }
-  .header .nav-toggle {
-    display: block;
-    line-height: 6rem;
-    font-size: 1.2rem; }
-  .header .nav-menu_visible {
-    left: 0; } }
+  .header {
+    grid-area: header;
+    height: 6rem; }
+    .header .logo {
+      font-size: 1.2rem;
+      padding: 0 2rem;
+      line-height: 6rem; }
+    .header .nav-menu {
+      background-color: #011b2e;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 900;
+      margin-right: 20;
+      list-style: none;
+      position: fixed;
+      left: 0;
+      top: 6.5rem;
+      width: 100%;
+      gap: 3rem;
+      padding: 0;
+      height: calc(100% - 6rem);
+      overflow-y: auto;
+      left: 100%;
+      transition: left 0.5s;
+      z-index: 10; }
+    .header .nav-menu-item {
+      font-size: 2.6rem;
+      padding: 0.8rem 0.12rem;
+      line-height: 6rem; }
+    .header .nav-menu-link {
+      border-radius: 0.5rem;
+      text-transform: uppercase; }
+    .header .nav-menu-link:hover {
+      background: none;
+      color: #034574;
+      transition: 0.5s; }
+    .header .nav-toggle {
+      display: block;
+      line-height: 6rem;
+      font-size: 1.2rem; }
+    .header .nav-menu_visible {
+      left: 0; } }
 
 .aboutme .aboutme__title {
   font-size: 1.6rem;

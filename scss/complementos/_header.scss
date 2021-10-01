@@ -2,11 +2,12 @@
 @media (max-width: 8500px) {
   .header {
     background-color: $color-primary;
-
     height: 10rem;
     .nav {
+      font-size: 2.1rem;
       display: flex;
       justify-content: space-between;
+      font-family: "roboto" sans-serif;
       max-width: 2400px;
       margin: 0 auto;
     }
@@ -17,34 +18,39 @@
     }
 
     .logo {
+      font-size: 4rem;
       color: $color-blanco;
-      font-size: 3.5rem;
+      font-family: recursive;
+      line-height: 10rem;
       font-weight: bold;
       padding: 0 4rem;
-      line-height: 10rem;
     }
 
     .nav-menu {
-      display: flex;
       font-weight: 900;
-      margin-right: 4rem;
-      list-style: none;
+      margin-right: 20rem;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      gap: 3rem;
     }
     .nav-menu-item {
-      font-size: 2rem;
-      margin: 0 1.5rem;
+      font-size: 1.6rem;
       padding: 0.8rem 0.12rem;
       text-transform: uppercase;
     }
 
     .nav-menu-link {
-      padding: 0.8 rem 1.2rem;
+      color: $color-blanco;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
       border-radius: 0.5rem;
     }
     .nav-menu-link:hover {
-      transition: 0.5s;
       background-color: $color-botonera;
       color: $color-primary;
+      transition: 0.5s;
     }
 
     .nav-toggle {
@@ -63,13 +69,11 @@
 //        T A B L E T     M O D E                     //
 @media (min-width: 600px) {
   .header {
-    background-color: $color-primary;
     height: 8rem;
     .nav {
       display: flex;
       justify-content: space-between;
-      max-width: 240rem;
-      margin: 0 auto;
+
       .logo {
         font-size: 2rem;
         font-weight: bold;
@@ -87,21 +91,26 @@
       list-style-type: none;
     }
     .nav-menu-item {
-      font-size: 2rem;
-      margin: 0 1rem;
-      line-height: 10rem;
-      text-transform: uppercase;
-      font-weight: bold;
-      width: max-content;
+      padding: 0 1rem;
+      line-height: 8rem;
     }
 
     .nav-menu-link:hover {
       background-color: $color-botonera;
+      color: $color-primary;
       transition: 0.5s;
     }
     .nav-toggle {
       line-height: 8rem;
       display: block;
+      color: $color-blanco;
+      background: none;
+      border: none;
+      font-size: 3rem;
+      padding: 0 2rem;
+      line-height: 10rem;
+      cursor: pointer;
+      display: none;
     }
   }
 }
@@ -109,6 +118,8 @@
 // MOBILE  //
 @media (max-width: 600px) {
   .header {
+    grid-area: header;
+    height: 6rem;
     .logo {
       font-size: 1.2rem;
       padding: 0 2rem;
@@ -116,32 +127,34 @@
     }
 
     .nav-menu {
+      background-color: $color-botonera;
       flex-direction: column;
       align-items: center;
-      margin: 0;
+      font-weight: 900;
+      margin-right: 20;
       list-style: none;
       position: fixed;
       left: 0;
       top: 6.5rem;
       width: 100%;
-      padding: 2rem 0;
+      gap: 3rem;
+      padding: 0;
       height: calc(100% - 6rem);
       overflow-y: auto;
       left: 100%;
       transition: left 0.5s;
-      background-color: $color-botonera;
+
       z-index: 10;
     }
     .nav-menu-item {
-      font-size: 2rem;
-      margin: 0 1.5rem;
+      font-size: 2.6rem;
+      padding: 0.8rem 0.12rem;
       line-height: 6rem;
-      text-transform: uppercase;
     }
 
     .nav-menu-link {
-      padding: 0.8 rem 1.2rem;
       border-radius: 0.5rem;
+      text-transform: uppercase;
     }
     .nav-menu-link:hover {
       background: none;
