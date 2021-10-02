@@ -605,7 +605,7 @@ body {
     font-weight: 900;
     transition: 0.5s; }
   .gallery .gallery__allies--SOV:hover {
-    color: #f12828;
+    color: #7e1212a2;
     font-weight: 900;
     transition: 0.5s; }
   .gallery .gallery__axis {
@@ -1037,11 +1037,11 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .SOV .SOV__title:hover {
-    color: #f12828;
+    color: #7e1212a2;
     font-weight: 700;
     transition: 1s; }
   .SOV .SOV__text {
-    color: #f12828;
+    color: #7e1212a2;
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
@@ -1059,11 +1059,11 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .SOV .SOV__title:hover {
-    color: #f12828;
+    color: #7e1212a2;
     font-weight: 700;
     transition: 1s; }
   .SOV .SOV__text {
-    color: #f12828;
+    color: #7e1212a2;
     font-size: 1.6rem;
     display: flex;
     justify-content: center; } }
@@ -1077,11 +1077,11 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .SOV .SOV__title:hover {
-    color: #f12828;
+    color: #7e1212a2;
     font-weight: 700;
     transition: 1s; }
   .SOV .SOV__text {
-    color: #f12828;
+    color: #7e1212a2;
     font-size: 3.6rem;
     display: flex;
     justify-content: center; }
@@ -1221,7 +1221,7 @@ body {
     .main .imgmenu .img__link--com {
       font-size: 1.6rem;
       text-decoration: none;
-      color: #f12828;
+      color: #7e1212a2;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
@@ -1296,7 +1296,7 @@ body {
     .main .imgmenu .img__link--com {
       font-size: 2rem;
       text-decoration: none;
-      color: #f12828;
+      color: #7e1212a2;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
@@ -1369,7 +1369,7 @@ body {
     .main .imgmenu .img__link--com {
       font-size: 5rem;
       text-decoration: none;
-      color: #f12828;
+      color: #7e1212a2;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
