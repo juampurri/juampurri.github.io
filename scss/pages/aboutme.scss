@@ -43,6 +43,7 @@
 //  TABLET //
 @media (min-width: 600px) {
   .aboutme {
+    padding: 2rem;
     .aboutme__title {
       font-size: 1.6rem;
       font-weight: bold;
@@ -65,10 +66,9 @@
     .aboutme__me {
       margin: 0.5rem;
       padding: 0.5rem;
-      border: 0.1rem solid $color-primary;
-
+      box-shadow: 1.6rem 1.6rem 1.6rem black;
       .aboutme__me--pregunta {
-        font-size: 3rem;
+        font-size: 2rem;
         color: $color-blanco;
         display: flex;
         justify-content: center;
@@ -76,7 +76,7 @@
         text-transform: uppercase;
       }
       .aboutme__me--respuesta {
-        font-size: 3rem;
+        font-size: 2rem;
         color: $color-negro;
         display: flex;
         justify-content: center;

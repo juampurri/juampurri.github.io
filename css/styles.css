@@ -110,7 +110,7 @@ body {
       display: flex;
       justify-content: space-between; }
       .header .nav .logo {
-        font-size: 2rem;
+        font-size: 3.6rem;
         font-weight: bold;
         padding: 0 4rem;
         line-height: 8rem; }
@@ -219,38 +219,40 @@ body {
     font-size: 2rem; }
 
 @media (min-width: 600px) {
-  .aboutme .aboutme__title {
-    font-size: 1.6rem;
-    font-weight: bold;
-    font-family: "roboto" sans serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    text-transform: uppercase;
-    color: #034574; }
-  .aboutme .aboutme__img {
-    display: flex;
-    border-radius: 3rem;
-    padding: 5rem;
-    height: 20rem;
-    width: 20rem; }
-  .aboutme .aboutme__me {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border: 0.1rem solid #034574; }
-    .aboutme .aboutme__me .aboutme__me--pregunta {
-      font-size: 3rem;
-      color: #eeeeee;
+  .aboutme {
+    padding: 2rem; }
+    .aboutme .aboutme__title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      font-family: "roboto" sans serif;
       display: flex;
       justify-content: center;
-      flex-wrap: nowrap;
-      text-transform: uppercase; }
-    .aboutme .aboutme__me .aboutme__me--respuesta {
-      font-size: 3rem;
-      color: #222;
+      align-items: center;
+      padding: 5rem;
+      text-transform: uppercase;
+      color: #034574; }
+    .aboutme .aboutme__img {
       display: flex;
-      justify-content: center; } }
+      border-radius: 3rem;
+      padding: 5rem;
+      height: 20rem;
+      width: 20rem; }
+    .aboutme .aboutme__me {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      box-shadow: 1.6rem 1.6rem 1.6rem black; }
+      .aboutme .aboutme__me .aboutme__me--pregunta {
+        font-size: 2rem;
+        color: #eeeeee;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        text-transform: uppercase; }
+      .aboutme .aboutme__me .aboutme__me--respuesta {
+        font-size: 2rem;
+        color: #222;
+        display: flex;
+        justify-content: center; } }
 
 @media (min-width: 960px) {
   .aboutme .aboutme__title {
