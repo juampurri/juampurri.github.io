@@ -1,10 +1,19 @@
 .USA {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
   .USA__title {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 5rem;
     color: $color-primary;
     text-transform: uppercase;
+  }
+  .USA__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
   }
   .USA__title:hover {
     color: $color-usa;
@@ -16,6 +25,7 @@
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
+    padding: 3rem;
   }
   .hr {
     border: 0.5rem solid;
@@ -34,7 +44,7 @@
       text-transform: uppercase;
     }
     .USA__title:hover {
-      color: $color-sov;
+      color: $color-usa;
       font-weight: 700;
       transition: 1s;
     }

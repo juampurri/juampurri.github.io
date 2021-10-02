@@ -39,7 +39,7 @@ body {
   font-weight: bold;
   font-family: cursive;
   padding: 3rem;
-  font-size: 1rem; }
+  font-size: 0.7rem; }
 
 @media (min-width: 600px) {
   .footer {
@@ -149,7 +149,7 @@ body {
       padding: 0 2rem;
       line-height: 6rem; }
     .header .nav-menu {
-      background-color: #011b2e;
+      background-color: #034574;
       flex-direction: column;
       align-items: center;
       font-weight: 900;
@@ -175,7 +175,7 @@ body {
       text-transform: uppercase; }
     .header .nav-menu-link:hover {
       background: none;
-      color: #034574;
+      color: #011b2e;
       transition: 0.5s; }
     .header .nav-toggle {
       display: block;
@@ -693,8 +693,8 @@ body {
       padding: 3rem; } }
 
 .France {
-  font-family: recursive;
-  padding: 3rem; }
+  display: flex;
+  flex-direction: column; }
   .France .France__title {
     display: flex;
     justify-content: center;
@@ -707,10 +707,11 @@ body {
     transition: 1s; }
   .France .France__text {
     color: #2222db;
+    font-family: recursive;
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 0.1rem;
+    padding-bottom: 5rem;
     padding-left: 2rem; }
   .France .France__img {
     display: flex;
@@ -760,28 +761,33 @@ body {
     display: flex;
     justify-content: center; } }
 
-.GBR .GBR__title {
+.GBR {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.GBR .GBR__title:hover {
-  color: #008000;
-  font-weight: 700;
-  transition: 1s; }
-
-.GBR .GBR__text {
-  color: #008000;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.GBR .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column; }
+  .GBR .GBR__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .GBR .GBR__title:hover {
+    color: #008000;
+    font-weight: 700;
+    transition: 1s; }
+  .GBR .GBR__text {
+    color: #008000;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+  .GBR .GBR__img {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+  .GBR .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .GBR .GBR__title {
@@ -823,28 +829,34 @@ body {
       display: flex;
       justify-content: center; } }
 
-.Germany .Germany__title {
+.Germany {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.Germany .Germany__title:hover {
-  color: #1a1919;
-  font-weight: 700;
-  transition: 1s; }
-
-.Germany .Germany__text {
-  color: #1a1919;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.Germany .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column;
+  padding: 3rem; }
+  .Germany .Germany__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .Germany .Germany__title:hover {
+    color: #1a1919;
+    font-weight: 700;
+    transition: 1s; }
+  .Germany .Germany__text {
+    color: #1a1919;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 5rem; }
+  .Germany .Germany__img {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .Germany .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .Germany .Germany__title {
@@ -885,28 +897,31 @@ body {
     justify-content: center;
     align-content: center; } }
 
-.Italy .Italy__title {
+.Italy {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.Italy .Italy__title:hover {
-  color: #81f011;
-  font-weight: 700;
-  transition: 1s; }
-
-.Italy .Italy__text {
-  color: #81f011;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.Italy .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column;
+  padding: 3rem; }
+  .Italy .Italy__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .Italy .Italy__title:hover {
+    color: #81f011;
+    font-weight: 700;
+    transition: 1s; }
+  .Italy .Italy__text {
+    color: #81f011;
+    font-size: 1.6rem;
+    font-family: "recursive";
+    display: flex;
+    justify-content: center;
+    padding: 3rem; }
+  .Italy .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .Italy .Italy__title {
@@ -947,28 +962,30 @@ body {
     justify-content: center;
     align-content: center; } }
 
-.Japan .Japan__title {
+.Japan {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.Japan .Japan__title:hover {
-  color: #e2e215;
-  font-weight: 700;
-  transition: 1s; }
-
-.Japan .Japan__text {
-  color: #e2e215;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.Japan .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column;
+  padding: 3rem; }
+  .Japan .Japan__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .Japan .Japan__title:hover {
+    color: #e2e215;
+    font-weight: 700;
+    transition: 1s; }
+  .Japan .Japan__text {
+    color: #e2e215;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem; }
+  .Japan .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .Japan .Japan__title {
@@ -1009,28 +1026,30 @@ body {
     justify-content: center;
     align-content: center; } }
 
-.SOV .SOV__title {
+.SOV {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.SOV .SOV__title:hover {
-  color: #f12828;
-  font-weight: 700;
-  transition: 1s; }
-
-.SOV .SOV__text {
-  color: #f12828;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.SOV .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column;
+  padding: 3rem; }
+  .SOV .SOV__title {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .SOV .SOV__title:hover {
+    color: #f12828;
+    font-weight: 700;
+    transition: 1s; }
+  .SOV .SOV__text {
+    color: #f12828;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem; }
+  .SOV .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .SOV .SOV__title {
@@ -1071,28 +1090,35 @@ body {
     justify-content: center;
     align-content: center; } }
 
-.USA .USA__title {
+.USA {
   display: flex;
-  justify-content: center;
-  padding: 3rem;
-  color: #034574;
-  text-transform: uppercase; }
-
-.USA .USA__title:hover {
-  color: #5f9ea0;
-  font-weight: 700;
-  transition: 1s; }
-
-.USA .USA__text {
-  color: #5f9ea0;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center; }
-
-.USA .hr {
-  border: 0.5rem solid;
-  display: block;
-  color: #034574; }
+  flex-direction: column;
+  padding: 3rem; }
+  .USA .USA__title {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    color: #034574;
+    text-transform: uppercase; }
+  .USA .USA__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem; }
+  .USA .USA__title:hover {
+    color: #5f9ea0;
+    font-weight: 700;
+    transition: 1s; }
+  .USA .USA__text {
+    color: #5f9ea0;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem; }
+  .USA .hr {
+    border: 0.5rem solid;
+    display: block;
+    color: #034574; }
 
 @media (min-width: 600px) {
   .USA .USA__title {
@@ -1102,7 +1128,7 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .USA .USA__title:hover {
-    color: #f12828;
+    color: #5f9ea0;
     font-weight: 700;
     transition: 1s; }
   .USA .USA__text {

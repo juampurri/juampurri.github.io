@@ -1,4 +1,7 @@
 .Germany {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
   .Germany__title {
     display: flex;
     justify-content: center;
@@ -16,6 +19,12 @@
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
+    padding: 5rem;
+  }
+  .Germany__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hr {
     border: 0.5rem solid;

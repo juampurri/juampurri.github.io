@@ -127,7 +127,7 @@
     }
 
     .nav-menu {
-      background-color: $color-botonera;
+      background-color: $color-primary;
       flex-direction: column;
       align-items: center;
       font-weight: 900;
@@ -158,7 +158,7 @@
     }
     .nav-menu-link:hover {
       background: none;
-      color: $color-primary;
+      color: $color-botonera;
       transition: 0.5s;
     }
 

@@ -1,4 +1,7 @@
 .Italy {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
   .Italy__title {
     display: flex;
     justify-content: center;
@@ -14,8 +17,10 @@
   .Italy__text {
     color: $color-ita;
     font-size: 1.6rem;
+    font-family: "recursive";
     display: flex;
     justify-content: center;
+    padding: 3rem;
   }
   .hr {
     border: 0.5rem solid;

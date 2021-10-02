@@ -26,7 +26,6 @@
       src="https://kit.fontawesome.com/51b92a92ba.js"
       crossorigin="anonymous"
     ></script>
-    <!--   LINK FONTS           -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,37 +34,42 @@
     />
     <!--                  LINKS CSS & JS -->
     <link rel="stylesheet" href="/css/styles.css" />
-  <script src="/js/index.js"> </script>
+    <script defer src="js/index.js"></script>
   </head>
   <body class="grid__container">
     <!--                    HEADER                     -->
     <header class="header">
       <nav class="nav">
-        <h1 class="logo">WW2 PHOTOS</h1>
-        <button class="nav__toggle" aria-label="Abrir menú">
+        <a class="logo nav-link" href="/index.html">WW2 PHOTOS</a>
+        <button class="nav-toggle" aria-label="Open menu">
           <i class="fas fa-bars"></i>
         </button>
-        <ul class="nav__menu nav__menu--visible"">
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/index.html">Home</a>
+        <ul class="nav-menu nav-menu_visible">
+          <li class="nav-menu-item">
+            <a href="/index.html" class="nav-menu-link nav-link">Home</a>
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/gallery.html">Gallery</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/gallery.html"
+              >Gallery</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/aboutme.html">About me</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/aboutme.html"
+              >About me</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/contact.html">Contact</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
-        
       </nav>
     </header>
-    <!--                  F I N            H E A D E R         -->
+    <!--  F I N            H E A D E R-->
     <!--                    M A I N                        -->
     <main class="main">
-      <div class="gallery"> 
+      <div class="gallery">
         <h2 class="title_gal">Beligerants</h2>
         <section class="gallery__allies">
           <img
@@ -81,7 +85,7 @@
             </a>
             <a
               class="gallery__allies gallery__allies--USA"
-              href="/pages/USA.html"
+              href="/pages/usa.html"
               >United States
             </a>
             <a
@@ -91,7 +95,7 @@
             </a>
             <a
               class="gallery__allies gallery__allies--SOV"
-              href="/pages/SOV.html"
+              href="/pages/sov.html"
               >Soviet Union
             </a>
           </div>
@@ -103,7 +107,9 @@
             alt="Axis nations"
           />
           <div class="gallery__axis gallery__axis--links">
-            <a class="gallery__axis gallery__axis--GER" href="/pages/germany.html"
+            <a
+              class="gallery__axis gallery__axis--GER"
+              href="/pages/germany.html"
               >Germany
             </a>
             <a class="gallery__axis gallery__axis--ITA" href="/pages/italy.html"
@@ -120,8 +126,7 @@
     <!--                F O O T E R              -->
     <footer class="footer">
       <small
-        >Photo credits to their respective owners,
-          I just share them with you.
+        >Photo credits to their respective owners, I just share them with you.
         <strong>Design by Juan Bravo - 2021</strong>
       </small>
     </footer>
@@ -132,6 +137,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script src="/js/index.js"> </script>
+    <script src="/js/index.js"></script>
   </body>
 </html>

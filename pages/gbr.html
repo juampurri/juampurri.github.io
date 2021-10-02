@@ -26,7 +26,6 @@
       src="https://kit.fontawesome.com/51b92a92ba.js"
       crossorigin="anonymous"
     ></script>
-    <!--   LINK FONTS           -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,39 +34,44 @@
     />
     <!--                  LINKS CSS & JS -->
     <link rel="stylesheet" href="/css/styles.css" />
-  <script src="/js/index.js"> </script>
+    <script defer src="js/index.js"></script>
   </head>
   <body class="grid__container">
     <!--                    HEADER                     -->
     <header class="header">
       <nav class="nav">
-        <h1 class="logo">WW2 PHOTOS</h1>
-        <button class="nav__toggle" aria-label="Abrir menú">
+        <a class="logo nav-link" href="/index.html">WW2 PHOTOS</a>
+        <button class="nav-toggle" aria-label="Open menu">
           <i class="fas fa-bars"></i>
         </button>
-        <ul class="nav__menu nav__menu--visible"">
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/index.html">Home</a>
+        <ul class="nav-menu nav-menu_visible">
+          <li class="nav-menu-item">
+            <a href="/index.html" class="nav-menu-link nav-link">Home</a>
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/gallery.html">Gallery</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/gallery.html"
+              >Gallery</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/aboutme.html">About me</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/aboutme.html"
+              >About me</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/contact.html">Contact</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
-        
       </nav>
     </header>
-    <!--                  F I N            H E A D E R         -->
+    <!--  F I N            H E A D E R-->
     <!--                    M A I N                        -->
     <main class="main">
       <div class="GBR">
         <h2 class="GBR__title">Great Britain and commonwealth</h2>
-        
+        <!--  pic  1  -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/2-inch mortar team of UK 2nd Warwickshire Regiment at Rumegies, Nord-Pas-de-Calais, France, 22 Jan 1940.jpg"
@@ -77,38 +81,44 @@
           2-inch mortar team of UK 2nd Warwickshire Regiment at Rumegies,
           Nord-Pas-de-Calais, France, 22 Jan 1940
         </h5>
-        <hr class="hr">  
-        <img
-          class="GBR__img rounded img-fluid"
-          src="/img/BRIT/Canadian troops waiting in ditches with their bicycles as men of the UK 48th Royal Marine Commando took cover from mortar fire on the road side near St Aubin Sur Mer, Normandy, France, 6 Jun 1944.jpg"
-          alt="Canadian troops waiting in ditches with their bicycles"
-        />
+        <hr class="hr" />
+        <!--  pic 2   -->
+        <center>
+          <img
+            class="GBR__img rounded img-fluid"
+            src="/img/BRIT/Canadian troops waiting in ditches with their bicycles as men of the UK 48th Royal Marine Commando took cover from mortar fire on the road side near St Aubin Sur Mer, Normandy, France, 6 Jun 1944.jpg"
+            alt="Canadian troops waiting in ditches with their bicycles"
+          />
+        </center>
         <h5 class="GBR__text">
           Canadian troops waiting in ditches with their bicycles as men of the
-          UK 48th Royal Marine Commando took cover from mortar fire on the
-          road side near St Aubin Sur Mer, Normandy, France, 6 Jun 1944
+          UK 48th Royal Marine Commando took cover from mortar fire on the road
+          side near St Aubin Sur Mer, Normandy, France, 6 Jun 1944
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic 3   -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/General Bernard Montgomery of UK 8th Army in Sicily, Italy, Jul or Aug 1943 note Willys MB and two GMC DUKW vehicles.jpg"
           alt="General Bernard Montgomery of UK 8th Army in Sicily"
         />
         <h5 class="GBR__text">
-          General Bernard Montgomery of UK 8th Army in Sicily, Italy, Jul or
-          Aug 1943 note Willys MB and two GMC DUKW vehicles
+          General Bernard Montgomery of UK 8th Army in Sicily, Italy, Jul or Aug
+          1943 note Willys MB and two GMC DUKW vehicles
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  4  -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/Matilda tanks of UK 32nd Army Tank Brigade, Tobruk, late 1941 or early 1942.jpg"
           alt="Matilda tanks of UK 32nd Army"
         />
         <h5 class="GBR__text">
-          Matilda tanks of UK 32nd Army Tank Brigade, Tobruk, late 1941 or
-          early 1942
+          Matilda tanks of UK 32nd Army Tank Brigade, Tobruk, late 1941 or early
+          1942
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  5  -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/Razorback P-47 of the 355th Fighter Group at rest at Steeple Morden, Cambridgeshire, England, UK, 1943-44. Note Cletrac M-2 High Speed Tractor..jpg"
@@ -119,7 +129,8 @@
           Cambridgeshire, England, UK, 1943-44. Note Cletrac M-2 High Speed
           Tractor
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  6  -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/Sergeant F. J. Petrie and sapper L. Roberts examining a captured German Panzerschreck weapon, south of Caumont, France, 31 Jul 1944.jpg"
@@ -129,29 +140,31 @@
           Sergeant F. J. Petrie and sapper L. Roberts examining a captured
           German Panzerschreck weapon, south of Caumont, France, 31 Jul 1944
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic   7 -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/UK Royal Air Force Stirling bombers, acting as glider tugs, lining at the runway at Tarrant Rushton, England, United Kingdom, May-Jun 1944; note invasion strips.jpg"
           alt="UK Royal Air Force Stirling bombers"
         />
         <h5 class="GBR__text">
-          UK Royal Air Force Stirling bombers, acting as glider tugs, lining
-          at the runway at Tarrant Rushton, England, United Kingdom, May-Jun
-          1944
+          UK Royal Air Force Stirling bombers, acting as glider tugs, lining at
+          the runway at Tarrant Rushton, England, United Kingdom, May-Jun 1944
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic   8 -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/Valentine infantry tank of UK 23rd Armoured Brigade carrying Scottish troops of the UK 51st Highland Division in North Africa, circa mid to late-1942.jpg"
           alt="Valentine infantry tank of UK 23rd Armoured Brigade carrying Scottish troops"
         />
         <h5 class="GBR__text">
-          Valentine infantry tank of UK 23rd Armoured Brigade carrying
-          Scottish troops of the UK 51st Highland Division in North Africa,
-          circa mid to late-1942
+          Valentine infantry tank of UK 23rd Armoured Brigade carrying Scottish
+          troops of the UK 51st Highland Division in North Africa, circa mid to
+          late-1942
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic   9 -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/View of the control tower at RAF Bassingbourn, Cambridgeshire, England, UK, 1945.jpg"
@@ -161,7 +174,8 @@
           View of the control tower at RAF Bassingbourn, Cambridgeshire,
           England, UK, 1945
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  10  -->
         <img
           class="GBR__img rounded img-fluid"
           src="/img/BRIT/War correspondent Alan Wood, embedded with men of UK 1st Airborne Division, typing in woods near Arnhem, Gelderland, the Netherlands, 18 Sep 1944.jpg"
@@ -169,28 +183,27 @@
         />
         <h5 class="GBR__text">
           War correspondent Alan Wood, embedded with men of UK 1st Airborne
-          Division, typing in woods near Arnhem, Gelderland, the Netherlands,
-          18 Sep 1944
+          Division, typing in woods near Arnhem, Gelderland, the Netherlands, 18
+          Sep 1944
         </h5>
-        
       </div>
     </main>
 
     <!--                F O O T E R              -->
     <footer class="footer">
       <small
-        >Photo credits to their respective owners,
-          I just share them with you.
+        >Photo credits to their respective owners, I just share them with you.
         <strong>Design by Juan Bravo - 2021</strong>
       </small>
     </footer>
     <!--                       S  C  R  I  P  T  S                              -->
+    <script src="/docs/5.1/assets/js/docs.min.js"></script>
     <script
       src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script src="/js/index.js"> </script>
+    <script src="/js/index.js"></script>
   </body>
 </html>

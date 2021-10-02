@@ -26,7 +26,6 @@
       src="https://kit.fontawesome.com/51b92a92ba.js"
       crossorigin="anonymous"
     ></script>
-    <!--   LINK FONTS           -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,39 +34,44 @@
     />
     <!--                  LINKS CSS & JS -->
     <link rel="stylesheet" href="/css/styles.css" />
-  <script src="/js/index.js"> </script>
+    <script defer src="js/index.js"></script>
   </head>
   <body class="grid__container">
     <!--                    HEADER                     -->
     <header class="header">
       <nav class="nav">
-        <h1 class="logo">WW2 PHOTOS</h1>
-        <button class="nav__toggle" aria-label="Abrir menú">
+        <a class="logo nav-link" href="/index.html">WW2 PHOTOS</a>
+        <button class="nav-toggle" aria-label="Open menu">
           <i class="fas fa-bars"></i>
         </button>
-        <ul class="nav__menu nav__menu--visible"">
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/index.html">Home</a>
+        <ul class="nav-menu nav-menu_visible">
+          <li class="nav-menu-item">
+            <a href="/index.html" class="nav-menu-link nav-link">Home</a>
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/gallery.html">Gallery</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/gallery.html"
+              >Gallery</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/aboutme.html">About me</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/aboutme.html"
+              >About me</a
+            >
           </li>
-          <li class="nav__menu--item">
-            <a class="nav__menu--link" href="/pages/contact.html">Contact</a>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="/pages/contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
-        
       </nav>
     </header>
-    <!--                  F I N            H E A D E R         -->
+    <!--  F I N            H E A D E R-->
     <!--                    M A I N                        -->
     <main class="main">
       <div class="Japan">
         <h2 class="Japan__title">Japan</h2>
-        
+        <!--  pic  1  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Abandoned Japanese Type 1 medium tank on Iwo Jima, Japan, Mar 1945.jpg"
@@ -76,31 +80,35 @@
         <h5 class="Japan__text">
           Abandoned Japanese Type 1 medium tank on Iwo Jima, Japan, Mar 1945
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  2  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Demobilized Japanese soldiers and civilians at a rail station, Japan, Sep 1945.jpg"
           alt="Demobilized Japanese soldiers, Japan"
         />
         <h5 class="Japan__text">
-          Demobilized Japanese soldiers and civilians at a rail station,
-          Japan, Sep 1945
+          Demobilized Japanese soldiers and civilians at a rail station, Japan,
+          Sep 1945
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  3  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese Army tanker, date unknown.jpg"
           alt="Japanese Army tanker"
         />
         <h5 class="Japan__text">Japanese Army tanker, date unknown</h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  4  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese Army tankers, date unknown.jpg"
           alt="Japanese Army tankers"
         />
         <h5 class="Japan__text">Japanese Army tankers, date unknown</h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic 5   -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese landing ship No. 149 loading a Type 95 Ha-Go light tank, Nasake Island, Kure, Japan, 27 Feb 1944.jpg"
@@ -110,7 +118,8 @@
           Japanese landing ship No. 149 loading a Type 95 Ha-Go light tank,
           Nasake Island, Kure, Japan, 27 Feb 1944
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic 6   -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese officers and men saluting the US flag, Maloelap, Marshall Islands, Sep 1945.jpg"
@@ -120,7 +129,8 @@
           Japanese officers and men saluting the US flag, Maloelap, Marshall
           Islands, Sep 1945
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  7  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese pilots Masao Asai and Masao Sato aboard carrier Akagi, 1938-1939; note A5M fighter in background.jpg"
@@ -130,17 +140,19 @@
           Japanese pilots Masao Asai and Masao Sato aboard carrier Akagi,
           1938-1939
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  8  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese soldiers in Mongolia Area, China, 1939; note captured Soviet DP machine gun.jpg"
           alt="Japanese soldiers in Mongolia Area, China"
         />
         <h5 class="Japan__text">
-          Japanese soldiers in Mongolia Area, China, 1939; note captured
-          Soviet DP machine gun
+          Japanese soldiers in Mongolia Area, China, 1939; note captured Soviet
+          DP machine gun
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  9   -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese troops celebrating the capture of Shanghai North Rail Station, Oct 1937.jpg"
@@ -150,7 +162,8 @@
           Japanese troops celebrating the capture of Shanghai North Rail
           Station, Oct 1937
         </h5>
-        <hr class="hr">  
+        <hr class="hr" />
+        <!--  pic  10  -->
         <img
           class="Japan__img rounded img-fluid"
           src="/img/JAP/Japanese troops in the back of a truck, northeastern China, date unknown.jpg"
@@ -166,8 +179,7 @@
     <!--                F O O T E R              -->
     <footer class="footer">
       <small
-        >Photo credits to their respective owners,
-          I just share them with you.
+        >Photo credits to their respective owners, I just share them with you.
         <strong>Design by Juan Bravo - 2021</strong>
       </small>
     </footer>
@@ -178,6 +190,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script src="/js/index.js"> </script>
+    <script src="/js/index.js"></script>
   </body>
 </html>

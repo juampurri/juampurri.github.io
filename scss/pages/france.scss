@@ -1,6 +1,6 @@
 .France {
-  font-family: recursive;
-  padding: 3rem;
+  display: flex;
+  flex-direction: column;
   .France__title {
     display: flex;
     justify-content: center;
@@ -15,10 +15,11 @@
   }
   .France__text {
     color: $color-fra;
+    font-family: recursive;
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 0.1rem;
+    padding-bottom: 5rem;
     padding-left: 2rem;
   }
   .France__img {
