@@ -842,7 +842,7 @@ body {
 .Germany {
   display: flex;
   flex-direction: column;
-  padding: 3rem; }
+  padding: 1rem; }
   .Germany .Germany__title {
     display: flex;
     justify-content: center;
@@ -855,10 +855,10 @@ body {
     transition: 1s; }
   .Germany .Germany__text {
     color: #1a1919;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    padding: 2rem;
     display: flex;
-    justify-content: center;
-    padding: 5rem; }
+    justify-content: center; }
   .Germany .Germany__img {
     display: flex;
     justify-content: center;
@@ -899,7 +899,7 @@ body {
     transition: 1s; }
   .Germany .Germany__text {
     color: #1a1919;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     display: flex;
     justify-content: center; }
   .Germany .Germany__img {
