@@ -36,10 +36,9 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  font-weight: bold;
   font-family: cursive;
   padding: 3rem;
-  font-size: 0.7rem; }
+  font-size: 1.6rem; }
 
 @media (min-width: 600px) {
   .footer {
@@ -54,7 +53,9 @@ body {
 @media (max-width: 8500px) {
   .header {
     background-color: #034574;
-    height: 10rem; }
+    height: 10rem;
+    top: 0;
+    left: 0; }
     .header .nav {
       font-size: 2.1rem;
       display: flex;
@@ -156,10 +157,8 @@ body {
       margin-right: 20;
       list-style: none;
       position: fixed;
-      left: 0;
       top: 6.5rem;
       width: 100%;
-      gap: 3rem;
       padding: 0;
       height: calc(100% - 6rem);
       overflow-y: auto;
