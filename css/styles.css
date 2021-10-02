@@ -37,8 +37,8 @@ body {
   align-content: center;
   align-items: center;
   font-family: cursive;
-  padding: 3rem;
-  font-size: 1.6rem; }
+  padding: 1rem;
+  font-size: 1.2rem; }
 
 @media (min-width: 600px) {
   .footer {
@@ -607,7 +607,7 @@ body {
     font-weight: 900;
     transition: 0.5s; }
   .gallery .gallery__allies--USA:hover {
-    color: #5f9ea0;
+    color: #244041;
     font-weight: 900;
     transition: 0.5s; }
   .gallery .gallery__allies--FRA:hover {
@@ -1116,11 +1116,11 @@ body {
     align-items: center;
     padding: 5rem; }
   .USA .USA__title:hover {
-    color: #5f9ea0;
+    color: #244041;
     font-weight: 700;
     transition: 1s; }
   .USA .USA__text {
-    color: #5f9ea0;
+    color: #244041;
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
@@ -1138,11 +1138,11 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .USA .USA__title:hover {
-    color: #5f9ea0;
+    color: #244041;
     font-weight: 700;
     transition: 1s; }
   .USA .USA__text {
-    color: #5f9ea0;
+    color: #244041;
     font-size: 1.6rem;
     display: flex;
     justify-content: center; } }
@@ -1156,11 +1156,11 @@ body {
     color: #034574;
     text-transform: uppercase; }
   .USA .USA__title:hover {
-    color: #5f9ea0;
+    color: #244041;
     font-weight: 700;
     transition: 1s; }
   .USA .USA__text {
-    color: #5f9ea0;
+    color: #244041;
     font-size: 3.6rem;
     display: flex;
     justify-content: center; }
@@ -1217,7 +1217,7 @@ body {
     .main .imgmenu .img__link--allies {
       font-size: 1.6rem;
       text-decoration: none;
-      color: #5f9ea0;
+      color: #244041;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
@@ -1292,7 +1292,7 @@ body {
     .main .imgmenu .img__link--allies {
       font-size: 2rem;
       text-decoration: none;
-      color: #5f9ea0;
+      color: #244041;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
@@ -1360,7 +1360,7 @@ body {
     .main .imgmenu .img__link--allies {
       font-size: 5rem;
       text-decoration: none;
-      color: #5f9ea0;
+      color: #244041;
       background-color: #034574;
       border-radius: 3rem;
       font-family: recursive;
